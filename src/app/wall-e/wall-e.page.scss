@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+ion-thumbnail {
+  height: 100%;
+  width: 30%;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+
+ion-item{
+  img {
+    border-radius: 100px;
+    box-shadow: -8px 8px 15px 1px rgb(17, 30, 44);
+  }
+
+  ion-label{
+    p{
+      color: rgb(187, 222, 255);
+      font-family: 'Roboto', sans-serif;
+      font-weight: 300;
+      font-size: 15px;
+      padding-bottom: 10px;
+      padding-left: 30px;
+    }
+    h1 {
+      font-weight: bold;
+      font-size: 22px;
+      color: #ff9100;
+      padding-left: 30px;
+    }
+  }
+
+}

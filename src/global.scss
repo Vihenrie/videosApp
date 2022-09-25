@@ -1,0 +1,64 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import "~@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+@import '~@ionic/angular/css/display.css';
+
+/* Optional CSS utils that can be commented out */
+@import "~@ionic/angular/css/padding.css";
+@import "~@ionic/angular/css/float-elements.css";
+@import "~@ionic/angular/css/text-alignment.css";
+@import "~@ionic/angular/css/text-transformation.css";
+@import "~@ionic/angular/css/flex-utils.css";
+
+:root {
+	--ion-background-color: #243e5a;
+	--ion-background-color-rgb: 36,62,90;
+
+	--ion-text-color: #BBDEFF;
+	--ion-text-color-rgb: 187,222,255;
+
+	--ion-color-step-50: #2c4662;
+	--ion-color-step-100: #334e6b;
+	--ion-color-step-150: #3b5673;
+	--ion-color-step-200: #425e7b;
+	--ion-color-step-250: #4a6683;
+	--ion-color-step-300: #516e8c;
+	--ion-color-step-350: #597694;
+	--ion-color-step-400: #607e9c;
+	--ion-color-step-450: #6886a4;
+	--ion-color-step-500: #708ead;
+	--ion-color-step-550: #7796b5;
+	--ion-color-step-600: #7f9ebd;
+	--ion-color-step-650: #86a6c5;
+	--ion-color-step-700: #8eaece;
+	--ion-color-step-750: #95b6d6;
+	--ion-color-step-800: #9dbede;
+	--ion-color-step-850: #a4c6e6;
+	--ion-color-step-900: #acceef;
+	--ion-color-step-950: #b3d6f7;
+
+  --ion-border-color: #111e2c;
+
+  --ion-item-background: #111e2c;
+
+  --ion-toolbar-background: #111e2c;
+
+  --ion-tab-bar-background: #111e2c;
+
+  --ion-card-background: #111e2c;
+}
