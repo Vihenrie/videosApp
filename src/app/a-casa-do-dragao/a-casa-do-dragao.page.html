@@ -1,13 +1,35 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>A casa do dragao</ion-title>
+  <ion-toolbar color="favorite">
+    <ion-title>A casa do dragão</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
-  <ion-item routerLink="/home">
+  <ion-item color="tem-ninguem">
+    <ion-thumbnail>
+      <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ruHPkmmAwBTCzNXtHot18rs6ctN.jpg" alt="">
+    </ion-thumbnail>
+    <ion-label>
+      <h1>A Casa do Dragão (2022)</h1>
+        <ion-chip class="chip1" color="secondary">
+          <ion-label >Sci-Fi & Fantasy</ion-label>
+        </ion-chip>
+        <ion-chip color="secondary">
+          <ion-label >Drama</ion-label>
+        </ion-chip>
+        <ion-chip color="secondary">
+          <ion-label>Action & Adventure</ion-label>
+        </ion-chip>
+        <h1 style="padding-top: 30px;">Sinopse</h1>
+        <p class="ion-text-wrap" >200 anos antes dos eventos de "Game of Thrones", os Targaryen estavam no ápice de seu poder,
+          tendo inúmeros dragões sob seu comando, mas nem tudo dura para sempre. O início do fim da dinastia Targaryen.</p>
+        <h1 style="padding-top: 30px;">George R. R. Martin</h1>
+        <p>Criação</p>
+          <h1>Ryan Condal</h1>
+          <p>Criação</p>
+    </ion-label>
+  </ion-item>
+  <ion-item routerLink="/home" color="favorite" class="ion-text-end">
     <ion-label>Voltar</ion-label>
   </ion-item>
-
 </ion-content>

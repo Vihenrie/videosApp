@@ -1,11 +1,36 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>Stranger things</ion-title>
+  <ion-toolbar color="favorite">
+    <ion-title>Stranger Things</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  <ion-item routerLink="/home">
+  <ion-item color="tem-ninguem">
+    <ion-thumbnail>
+      <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/49WJfeN0moxb9IPfGn8AIqMGskD.jpg" alt="">
+    </ion-thumbnail>
+    <ion-label>
+      <h1>Stranger Things (2016)</h1>
+        <ion-chip class="chip1" color="secondary">
+          <ion-label >Drama</ion-label>
+        </ion-chip>
+        <ion-chip color="secondary">
+          <ion-label >Sci-Fi & Fantasy</ion-label>
+        </ion-chip>
+        <ion-chip color="secondary">
+          <ion-label>Mistério</ion-label>
+        </ion-chip>
+        <h1 style="padding-top: 30px;">Sinopse</h1>
+        <p class="ion-text-wrap" >Quando um garoto desaparece, a cidade toda participa nas buscas. Mas o que encontram são segredos,
+          forças sobrenaturais e uma menina.
+        </p>
+        <h1 style="padding-top: 30px;">Matt Duffer</h1>
+        <p>Criação</p>
+          <h1>Ross Duffer</h1>
+          <p>Criação</p>
+    </ion-label>
+  </ion-item>
+  <ion-item routerLink="/home" color="favorite" class="ion-text-end">
     <ion-label>Voltar</ion-label>
   </ion-item>
 </ion-content>
