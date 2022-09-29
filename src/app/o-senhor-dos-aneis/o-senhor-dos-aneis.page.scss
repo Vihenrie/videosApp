@@ -14,7 +14,7 @@ ion-title{
   color: rgb(255, 145, 0);
 }
 
-ion-item{
+ion-card{
 
   img {
     border-radius: 25px;
@@ -40,6 +40,14 @@ ion-item{
       padding-left: 30px;
     }
   }
+  ion-item{
+    ion-label{
+      font-weight: 700;
+      color: #ff9100;
+      font-family: 'Roboto', 'sans-serif';
+    }
+
+  }
 
   .chip1{
     color: rgb(17, 30, 44);
@@ -54,4 +62,20 @@ ion-item{
     box-shadow: -5px 5px 5px 0px,
     -5px -5px 5px -15px;
   }
+}
+
+@media (max-width: 500px) {
+
+
+    ion-card{
+      ion-thumbnail {
+        height: 90%;
+        width: 90%;
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-bottom: 30px;
+      }
+    }
+
+
 }
